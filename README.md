@@ -10,12 +10,12 @@ projects.
 
 All warnings are enabled, with these exceptions:
 
-*Disabled by Default*
+**Commented Out by Default**
 
 - "Unused Parameters" (GCC_WARN_UNUSED_PARAMETER) is disabled, because it's not unusual to provide a
   method required by Apple's frameworks that ignores a parameter.
 
-*Not Even Included*
+**Not Even Included**
 
 - "Pedantic Warnings" (GCC_WARN_PEDANTIC) isn't included because ordinary interaction with Apple's
   libraries makes it unhappy.
