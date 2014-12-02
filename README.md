@@ -2,18 +2,17 @@ Xcode Warnings
 ==============
 
 Warnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
-settings present in Xcode 6.
-
-Comment out any settings that won't help your project. In particular, Warnings.xcconfig enables
-"Treat Warnings as Errors" (GCC_TREAT_WARNINGS_AS_ERRORS), which may be impractical for existing
-projects.
+settings present in Xcode 6. Comment out any settings that won't help your project.
 
 All warnings are enabled, with these exceptions:
 
 **Commented Out by Default**
 
-- "Unused Parameters" (GCC_WARN_UNUSED_PARAMETER) is disabled, because it's not unusual to provide a
-  method required by Apple's frameworks that ignores a parameter.
+- "Treat Warnings as Errors" (GCC_TREAT_WARNINGS_AS_ERRORS) isn't enabled because when experimenting
+  with code, I sometimes temporarily comment out a line which uses a variable — which triggers the
+  "Unused Variables" warning.
+- "Unused Parameters" (GCC_WARN_UNUSED_PARAMETER) isn't enabled because it's not unusual to provide
+  a method required by Apple's frameworks that ignores a parameter.
 
 **Not Even Included**
 
