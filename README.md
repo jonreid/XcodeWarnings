@@ -13,6 +13,8 @@ All warnings are enabled, with these exceptions:
   triggers the "Unused Variables" warning.
 - "Unused Parameters" (`GCC_WARN_UNUSED_PARAMETER`) isn't enabled because it's not unusual to
   provide a method required by Apple's frameworks that ignores a parameter.
+- "Multiple Definition Types for Selector" (`GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR`) isn't
+  enabled because it's not unusual to have a `@selector` on its own, apart from a method definition.
 
 **Not Even Included**
 
