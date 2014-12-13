@@ -1,5 +1,5 @@
-//  XcodeWarnings By Jon Reid, http://qualitycoding.org/about/
-//  Copyright 2014 Jonathan M. Reid. See LICENSE.txt
+//  XcodeWarnings by Jon Reid, http://qualitycoding.org/about/
+//  Source: https://github.com/jonreid/XcodeWarnings
 
 // Apple LLVM 6.0 - Warning Policies
 //GCC_TREAT_WARNINGS_AS_ERRORS = YES
