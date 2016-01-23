@@ -1,5 +1,4 @@
-Xcode Warnings
-==============
+![XcodeWarnings](http://qualitycoding.org/jrwp/wp-content/uploads/2016/01/XcodeWarnings.png)
 
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
 settings present in Xcode 7. Comment out any settings that won't help your project.
