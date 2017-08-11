@@ -31,6 +31,7 @@ If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "
 Extra Clang Warnings
 --------------------
 
-One Clang warnings without Xcode settings is included:
+Two Clang warnings without Xcode settings are included:
 
+- "Declaration of instance variables in the interface is deprecated" (`-Wobjc-interface-ivars`)
 - "Semicolon before method body is ignored" (`-Wsemicolon-before-method-body`)
