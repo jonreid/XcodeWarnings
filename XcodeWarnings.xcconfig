@@ -2,7 +2,7 @@
 //  Source: https://github.com/jonreid/XcodeWarnings
 
 // Other Clang warnings that don't have Xcode names
-WARNING_CFLAGS = -Wobjc-interface-ivars -Wsemicolon-before-method-body
+WARNING_CFLAGS = -Wsemicolon-before-method-body
 
 // Apple LLVM 8.0 - Preprocessing
 ENABLE_STRICT_OBJC_MSGSEND = YES
