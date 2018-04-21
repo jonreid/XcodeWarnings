@@ -3,6 +3,8 @@
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
 settings present in Xcode 9. Comment out any settings that won't help your project.
 
+Accompanying blog post: [Xcode Warnings: Can You Turn Them Up to Eleven?](https://qualitycoding.org/xcode-warnings/)
+
 All warnings are enabled, with these exceptions:
 
 **Commented Out by Default**
