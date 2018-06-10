@@ -1,7 +1,7 @@
 ![XcodeWarnings](http://qualitycoding.org/jrwp/wp-content/uploads/2016/01/XcodeWarnings@2x.png)
 
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
-settings present in Xcode 9. Comment out any settings that won't help your project.
+settings present in Xcode 10. Comment out any settings that won't help your project.
 
 Accompanying blog post: [Xcode Warnings: Can You Turn Them Up to Eleven?](https://qualitycoding.org/xcode-warnings/)
 
@@ -30,10 +30,7 @@ Static Analyzer
 The Static Analyzer is also completely enabled, including "Deep" analysis during the Build action.
 If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "Shallow" analysis.
 
-Extra Clang Warnings
---------------------
+Swift 4.2 Performance
+---------------------
 
-Two Clang warnings without Xcode settings are included:
-
-- "Declaration of instance variables in the interface is deprecated" (`-Wobjc-interface-ivars`)
-- "Semicolon before method body is ignored" (`-Wsemicolon-before-method-body`)
+The setting "Exclusive Access to Memory" (`SWIFT_ENFORCE_EXCLUSIVE_ACCESS`) is set to `"on"` which is Full Enforcement (Run-time Checks in All Builds). If you see performance degradation in your release builds, you may want to change this from `"on"` to `"debug-only"` so that the checks are done only in debug builds.
