@@ -4,7 +4,6 @@
 
 // Apple Clang - Preprocessing
 ENABLE_STRICT_OBJC_MSGSEND = YES
-ALWAYS_SEARCH_USER_PATHS = NO
 GCC_ENABLE_TRIGRAPHS = NO
 
 // Apple Clang - Undefined Behavior Sanitizer
