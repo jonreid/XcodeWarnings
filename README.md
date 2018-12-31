@@ -16,11 +16,11 @@ All warnings are enabled, with these exceptions:
   provide a method required by Apple's frameworks that ignores a parameter.
 - "Multiple Definition Types for Selector" (`GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR`) isn't
   enabled because it's not unusual to have a `@selector` on its own, apart from a method definition.
+- "Pedantic Warnings" (`GCC_WARN_PEDANTIC`) isn't enabled because ordinary interaction with Apple's
+  libraries makes it unhappy.
 
 **Not Even Included**
 
-- "Pedantic Warnings" (`GCC_WARN_PEDANTIC`) isn't included because ordinary interaction with Apple's
-  libraries makes it unhappy.
 - "Implicit Synthesized Properties" (`CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS`) isn't included
   because in all likelihood, you don't need to be backwards compatible with non-modern Objective-C.
 
