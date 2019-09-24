@@ -1,7 +1,7 @@
 ![XcodeWarnings](http://qualitycoding.org/jrwp/wp-content/uploads/2016/01/XcodeWarnings@2x.png)
 
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
-settings present in Xcode 10.2. Comment out any settings that won't help your project.
+settings present in Xcode 11. Comment out any settings that won't help your project.
 
 Accompanying blog post: [Xcode Warnings: Can You Turn Them Up to Eleven?](https://qualitycoding.org/xcode-warnings/)
 
