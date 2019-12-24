@@ -11,7 +11,7 @@ All warnings are enabled, with these exceptions:
 
 - "Pedantic Warnings" (`GCC_WARN_PEDANTIC`) isn't enabled because ordinary interaction with Apple's
   libraries makes it unhappy.
-- "Treat Warnings as Errors" (`GCC_TREAT_WARNINGS_AS_ERRORS`) isn't enabled because when
+- "Treat Warnings as Errors" (`GCC_TREAT_WARNINGS_AS_ERRORS` and `SWIFT_TREAT_WARNINGS_AS_ERRORS`) aren't enabled because when
   experimenting with code, I sometimes temporarily comment out a line which uses a variable — which
   triggers the "Unused Variables" warning.
 - "Unused Parameters" (`GCC_WARN_UNUSED_PARAMETER`) isn't enabled because it's not unusual to
