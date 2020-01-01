@@ -3,7 +3,7 @@
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
 settings present in Xcode 11. Comment out any settings that won't help your project.
 
-Accompanying blog post: [Xcode Warnings: Can You Turn Them Up to Eleven?](https://qualitycoding.org/xcode-warnings/)
+Accompanying blog post: [Xcode Warnings: Turn Them Up to Eleven!](https://qualitycoding.org/xcode-warnings/)
 
 All warnings are enabled, with these exceptions:
 
@@ -28,8 +28,3 @@ Static Analyzer
 
 The Static Analyzer is also completely enabled, including "Deep" analysis during the Build action.
 If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "Shallow" analysis.
-
-Swift Performance
------------------
-
-The setting "Exclusive Access to Memory" (`SWIFT_ENFORCE_EXCLUSIVE_ACCESS`) is set to `"on"` which is Full Enforcement (Run-time Checks in All Builds). If you see performance degradation in your release builds, you may want to change this from `"on"` to `"debug-only"` so that the checks are done only in debug builds.
