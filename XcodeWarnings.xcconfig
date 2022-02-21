@@ -1,6 +1,8 @@
-//  XcodeWarnings by Jon Reid, https://qualitycoding.org
-//  Copyright 2022 Jonathan M. Reid. See LICENSE.txt
-//  Source: https://github.com/jonreid/XcodeWarnings
+// XcodeWarnings by Jon Reid, https://qualitycoding.org
+// Copyright (c) 2022 Jonathan M. Reid.
+// License: https://github.com/jonreid/XcodeWarnings/blob/main/LICENSE.txt
+// Source: https://github.com/jonreid/XcodeWarnings
+// SPDX-License-Identifier: MIT
 
 // Apple Clang - Address Sanitizer
 CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES
