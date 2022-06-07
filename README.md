@@ -1,7 +1,7 @@
 ![XcodeWarnings](https://qualitycoding.org/wp-content/uploads/2021/06/XcodeWarnings-small1.png)
 
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
-settings present in Xcode 13. Comment out any settings that won't help your project.
+settings present in Xcode 14. Comment out any settings that won't help your project.
 
 Accompanying blog post: [Xcode Warnings: Turn Them Up to Eleven!](https://qualitycoding.org/xcode-warnings/)
 
@@ -22,6 +22,7 @@ All warnings are enabled, with these exceptions:
 - "Implicit Synthesized Properties" (`CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS`) isn't included
   because in all likelihood, you don't need to be backwards compatible with non-modern Objective-C.
 - "Disable Safety Checks" (`SWIFT_DISABLE_SAFETY_CHECKS`) isn't included in order to keep runtime safety checks when optimizing.
+- "Inhibit All Warnings" (Apple Clang) and "Suppress Warnings" (Swift) aren't included because they're the opposite of our goals for this configuration.
 
 Static Analyzer
 ---------------
