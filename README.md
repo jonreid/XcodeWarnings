@@ -1,5 +1,8 @@
 ![XcodeWarnings](https://qualitycoding.org/wp-content/uploads/2021/06/XcodeWarnings-small1.png)
 
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109765011064804734?domain=https%3A%2F%2Fiosdev.space
+)](https://iosdev.space/@qcoding)
+
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
 settings present in Xcode 14. Comment out any settings that won't help your project.
 
