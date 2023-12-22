@@ -1,8 +1,5 @@
 ![XcodeWarnings](https://qualitycoding.org/wp-content/uploads/2021/06/XcodeWarnings-small1.png)
 
-[![Mastodon Follow](https://img.shields.io/mastodon/follow/109765011064804734?domain=https%3A%2F%2Fiosdev.space
-)](https://iosdev.space/@qcoding)
-
 XcodeWarnings.xcconfig is an Xcode configuration file that lists all warnings and static analyzer
 settings present in Xcode 15. Comment out any settings that won't help your project.
 
@@ -35,3 +32,6 @@ If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "
 ## Author
 
 Jon Reid is the author of _[iOS Unit Testing by Example](https://iosunittestingbyexample.com)._ His website is [Quality Coding](https://qualitycoding.org).
+
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109765011064804734?domain=https%3A%2F%2Fiosdev.space
+)](https://iosdev.space/@qcoding)
