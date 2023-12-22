@@ -27,8 +27,11 @@ All warnings are enabled, with these exceptions:
 - "Disable Safety Checks" (`SWIFT_DISABLE_SAFETY_CHECKS`) isn't included in order to keep runtime safety checks when optimizing.
 - "Inhibit All Warnings" (Apple Clang) and "Suppress Warnings" (Swift) aren't included because they're the opposite of our goals for this configuration.
 
-Static Analyzer
----------------
+## Static Analyzer
 
 The Static Analyzer is also completely enabled, including "Deep" analysis during the Build action.
 If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "Shallow" analysis.
+
+## Author
+
+Jon Reid is the author of _[iOS Unit Testing by Example](https://iosunittestingbyexample.com)._ His website is [Quality Coding](https://qualitycoding.org).
