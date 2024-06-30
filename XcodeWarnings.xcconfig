@@ -158,6 +158,9 @@ CLANG_ANALYZER_DEADCODE_DEADSTORES = YES
 CLANG_TIDY_MISC_REDUNDANT_EXPRESSION = YES
 CLANG_TIDY_BUGPRONE_REDUNDANT_BRANCH_CONDITION = YES
 
+// Swift Compiler - Custom Flags
+OTHER_SWIFT_FLAGS = -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency -enable-upcoming-feature InferSendableFromCaptures
+
 // Swift Compiler - Language
 SWIFT_STRICT_CONCURRENCY = complete
 
