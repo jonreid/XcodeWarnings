@@ -29,9 +29,10 @@ All warnings are enabled, with these exceptions:
 The Static Analyzer is also completely enabled, including "Deep" analysis during the Build action.
 If that's too slow, comment out `CLANG_STATIC_ANALYZER_MODE` to restore faster "Shallow" analysis.
 
-## Author
+## About the Author
 
-Jon Reid is the author of _[iOS Unit Testing by Example](https://iosunittestingbyexample.com)._ His website is [Quality Coding](https://qualitycoding.org).
+Jon Reid is the author of _[iOS Unit Testing by Example](https://iosunittestingbyexample.com)._  
+Find more at [Quality Coding](https://qualitycoding.org).
 
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/qualitycoding.org)
 [![Mastodon](https://img.shields.io/mastodon/follow/109765011064804734?domain=https%3A%2F%2Fiosdev.space
