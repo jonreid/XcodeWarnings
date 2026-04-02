@@ -158,9 +158,6 @@ CLANG_ANALYZER_DEADCODE_DEADSTORES = YES
 CLANG_TIDY_MISC_REDUNDANT_EXPRESSION = YES
 CLANG_TIDY_BUGPRONE_REDUNDANT_BRANCH_CONDITION = YES
 
-// Swift Compiler - Custom Flags (for Xcode 15)
-OTHER_SWIFT_FLAGS = -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency -enable-upcoming-feature InferSendableFromCaptures
-
 // Swift Compiler - Upcoming Features (for Xcode 16)
 SWIFT_ENABLE_BARE_SLASH_REGEX = YES
 SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES
